@@ -15,7 +15,9 @@ namespace EmployeeWageProblem
         {
             Console.WriteLine("Welcome to Employee Wage Program");
 
-            EmployeeCheck.CheckEmployeeAttendance();
+            //EloyeeCheck.CheckEmployeeAttendance();
+
+            Employeewage.CalculateEmpWage();
         }
     }
 }
