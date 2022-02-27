@@ -8,16 +8,18 @@ namespace EmployeeWageProblem
     class Program
     {
         /// <summary>
-        /// Displaying the Greeting Message.
+        /// Display the Wage of Part Time Employee.
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Program");
+            //Console.WriteLine("Welcome to Employee Wage Program");
 
-            //EloyeeCheck.CheckEmployeeAttendance();
+            //EmployeeCheck.CheckEmployeeAttendance();
 
-            Employeewage.CalculateEmpWage();
+            //Employeewage.CalculateEmpWage();
+
+            PartTimeEmp.Calculateparttimewage();
         }
     }
 }
