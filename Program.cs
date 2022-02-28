@@ -8,7 +8,7 @@ namespace EmployeeWageProblem
     class Program
     {
         /// <summary>
-        /// Display the Wage of Part Time Employee
+        /// Solved using Switch Case Statement
         /// .
         /// </summary>
         /// <param name="args"></param>
@@ -21,7 +21,8 @@ namespace EmployeeWageProblem
             //Employeewage.CalculateEmpWage();
 
             // PartTimeEmp.Calculateparttimewage();
-            Switchcase.Monthlywage();
+            //Switchcase.Monthlywage();
+            Monthlywage.Calculatingmonthlywage();
         }
     }
 }
