@@ -8,7 +8,8 @@ namespace EmployeeWageProblem
     class Program
     {
         /// <summary>
-        /// Display the Wage of Part Time Employee.
+        /// Display the Wage of Part Time Employee
+        /// .
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
@@ -19,7 +20,8 @@ namespace EmployeeWageProblem
 
             //Employeewage.CalculateEmpWage();
 
-            PartTimeEmp.Calculateparttimewage();
+            // PartTimeEmp.Calculateparttimewage();
+            Switchcase.Monthlywage();
         }
     }
 }
