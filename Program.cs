@@ -8,22 +8,17 @@ namespace EmployeeWageProblem
     class Program
     {
         /// <summary>
-        /// Calculated Monthly Wage of Employee.
+        /// Solved.
         /// .
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            //Console.WriteLine("Welcome to Employee Wage Program");
+            
 
-            //EmployeeCheck.CheckEmployeeAttendance();
+            EmployeeCheck Obj = new EmployeeCheck();
 
-            //Employeewage.CalculateEmpWage();
-
-            // PartTimeEmp.Calculateparttimewage();
-            //Switchcase.Monthlywage();
-            // Monthlywage.Calculatingmonthlywage();
-            Totalworkinghrs.Calworkinghrs();
+            Obj.CheckEmployeeAttendance();
         }
     }
 }
